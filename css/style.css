@@ -1,0 +1,158 @@
+.Profile-Pic {
+  float: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  border: 5px solid chocolate;
+}
+
+.myheader {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+.container {
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Define the main Navigation block */
+.myNav {
+  display: block;
+  height: 50px;
+  /* line-height: 50px; */
+}
+
+/* Remove bullets, margin and padding */
+.myNav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+/* Define the block styling for the links */
+.myNav li a {
+  display: inline-block;
+  text-align: center;
+}
+/* This is optional, however if you want to display the active link differently apply a background to it */
+.myNav li a.active {
+  background-color: #3786e1;
+}
+
+body {
+  border: 5px solid chocolate;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.site-footer {
+  background-color: #838383;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#social-wrapper {
+  text-align: center;
+}
+
+/*Social Media Icons*/
+.social-wrapper {
+  text-align: center;
+}
+
+.social-wrapper ul li {
+  display: inline;
+  margin: 0 5px;
+}
+
+.twitter-icon,
+.facebook-icon,
+.instagram-icon,
+.linkedin-icon,
+.googleplus-icon,
+.youtube-icon,
+.foursquare-icon {
+  margin-top: 0.625em;
+  width: 40px;
+  height: 40px;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+  border-radius: 25px;
+}
+
+.twitter-icon:hover,
+.facebook-icon:hover,
+.instagram-icon:hover,
+.linkedin-icon:hover,
+.googleplus-icon:hover,
+.youtube-icon:hover,
+.foursquare-icon:hover {
+  opacity: 1;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.footer-nav p {
+  text-align: center;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.sidebar {
+  width: 400px;
+  padding: 20px;
+  background: darkgreen;
+}
+
+.sidebar h3 {
+  color: white;
+  font-size: 30px;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  margin: 5px 0;
+}
+
+.sidebar a:visited {
+  color: black;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+.main {
+  padding: 40px;
+  font-size: 20px;
+}
+
+.main h4,
+.main h5 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.main h4 {
+  font-size: 50px;
+}
+
+.main h5 {
+  font-size: 40px;
+}
+
+.main p,
+.main ul {
+  margin-bottom: 60px;
+}
